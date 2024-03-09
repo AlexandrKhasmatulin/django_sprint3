@@ -31,7 +31,7 @@ def category_posts(request, category_slug):
         slug=category_slug
     )
     post_list = base_query().filter(
-        category.posts.all())
+        category=category)
     return render(
         request,
         'blog/category.html',
