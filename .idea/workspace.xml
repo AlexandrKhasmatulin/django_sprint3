@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f138b02-22cc-4f88-adc5-b83d0e528dae" name="Changes" comment="final" />
+    <list default="true" id="3f138b02-22cc-4f88-adc5-b83d0e528dae" name="Changes" comment="final">
+      <change beforePath="$PROJECT_DIR$/blogicum/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogicum/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogicum/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
