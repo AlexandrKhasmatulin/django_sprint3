@@ -32,9 +32,10 @@ def category_posts(request, category_slug):
         is_published=True,
         slug=category_slug
     )
-    postlist = base_query().category.posts.all()
-    return render(
-        request,
-        'blog/category.html',
-        {'category': category, 'postlist': postlist}
+    post_list = category.posts.filter(
+        pub_date__lte=timezone.now(),
+        is_published=True,
     )
+    context = {'post_list': post_list, 'category': category}
+    return render(request, 'blog/category.html', context)
+
