@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f138b02-22cc-4f88-adc5-b83d0e528dae" name="Changes" comment="final">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogicum/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogicum/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogicum/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogicum/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogicum/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogicum/blog/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="3f138b02-22cc-4f88-adc5-b83d0e528dae" name="Changes" comment="final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709980528005</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final">
+      <option name="closed" value="true" />
+      <created>1710068258412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710068258412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
