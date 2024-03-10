@@ -32,7 +32,7 @@ def category_posts(request, category_slug):
         is_published=True,
         slug=category_slug
     )
-    postlist = category.posts.all()
+    postlist = base_query().category.posts.all()
     return render(
         request,
         'blog/category.html',
