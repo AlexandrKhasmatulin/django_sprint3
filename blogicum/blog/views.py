@@ -1,6 +1,8 @@
 from django.utils import timezone
+
 from django.shortcuts import render, get_object_or_404
-from .models import Category, Post
+
+from blog.models import Category, Post
 
 MAX_POST_PAGE = 5
 
@@ -30,10 +32,9 @@ def category_posts(request, category_slug):
         is_published=True,
         slug=category_slug
     )
-    post_list = base_query().filter(
-        category=category)
+    postlist = category.posts.all()
     return render(
         request,
         'blog/category.html',
-        {'category': category, 'post_list': post_list}
+        {'category': category, 'postlist': postlist}
     )
